@@ -1,6 +1,10 @@
 .A{
     display: flex;
     padding: 20px 20px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left 0px;
+    
   
 }
 img{
@@ -43,6 +47,9 @@ a{
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 110px;
   
 }
 .M{
@@ -54,25 +61,30 @@ a{
 }
 .C{
     display: flex;
-    padding: 25px 25px;
+    margin: 20px 20px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 128px;
 }
-.al{
-    font-size: 60px;
-    background-color: rgb(65, 62, 62);
-    width: 290px;
+.alaqsa{
+    width:280px;
+    background-color: dimgray;
 }
+
+
 section{
     display: flex;
- 
-
+    background-image: url(images/top-banner.png),url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 0px, right 340px;
 }
 .all{
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
   
     border-left: 10px solid;
     border-top: solid 10px;
-    border-image: linear-gradient(rgb(0, 255, 119),rgb(231, 111, 12));
+    border-image: linear-gradient(rgb(4, 169, 246),rgb(231, 111, 12));
     border-image-slice: 2;
     height: 565px;  
 }
@@ -80,16 +92,23 @@ section{
     padding-top: 10px 10px;
     margin-top: 0px;
 }
-strong{
+span{
+    color: rgb(30, 2, 42);
     font-size: 60px;
-    margin-left: 20px;
+   margin-left: 15px;
+   text-shadow:darkslategray 7px 7px 7px;
 }
 .kma{
     font-size: 35px;
-    color: rgb(207, 187, 8);
+    color: rgb(230, 96, 6);
     padding-left: 10px;
 }
 footer{
     font-size: 25px;
     text-align: center;
+}
+.auion{
+    color: rgb(105, 5, 5);
+    font-size: 30px;
+    text-shadow: none;
 }
